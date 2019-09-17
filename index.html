@@ -1,18 +1,25 @@
 <html>
-<body> 
-
 <head>
-
 <meta name="apple-itunes-app" content="app-id=id389801252, app-argument=darinka_korshunova">
+ <script type="application/javascript">
+	function Redirect() 
+    {  
+        window.location = 'https://www.instagram.com/darinka_korshunova';
+    } 
+	
+    function openPage()
+	{	  
+    
+    setTimeout('Redirect()', 500);		
+	};
+    </script>
 </head>
 
-    <script type="text/javascript">
-      
-    window.location = 'https://www.instagram.com/darinka_korshunova';
-    setTimeout(function(){
-        window.location = 'instagram://user?username=darinka_korshunova';
-    }, 500);
-
+<body> 
+ <script >
+       openPage();
     </script>
+
+   
 </body>
 </html>
