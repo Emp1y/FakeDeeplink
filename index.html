@@ -2,21 +2,23 @@
 <head>
 <meta name="apple-itunes-app" content="app-id=id389801252, app-argument=darinka_korshunova">
  <script type="application/javascript">
-	function Redirect() 
-    {  
-        window.location = 'https://www.instagram.com/darinka_korshunova';
-    } 
 	
     function openPage()
 	{	  
-    window.location = 'instagram://user?username=darinka_korshunova';	
-    setTimeout('Redirect()', 500);		
+		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) 
+		{
+			window.location = 'instagram://user?username=darinka_korshunova';	
+		}
+  
+    window.location = 'https://www.instagram.com/darinka_korshunova';
 	};
+	
     </script>
 </head>
 
 <body> 
  <script >
+ 
        openPage();
     </script>
 
