@@ -1,0 +1,2 @@
+RewriteEngine on
+Redirect 302 /old-url https://vk.com
