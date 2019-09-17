@@ -1,0 +1,51 @@
+{
+  "webcredentials": {
+    "apps": [
+      "777W53UFB2.com.burbn.instagram",
+      "MH9GU9K5PX.com.burbn.instagram",
+      "T84QZS65DQID.com.facebook.Instagram",
+      "3NW3KR6Q88.com.facebook.Instagram",
+      "3NW3KR6Q88.com.facebook.InstagramInHouse"
+    ]
+  },
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "777W53UFB2.com.burbn.instagram",
+        "paths": [
+                  "/darinka_korshunova/*",
+                  "/darinka_korshunova",                 
+                 ]
+      },
+      {
+        "appID": "MH9GU9K5PX.com.burbn.instagram",
+        "paths": [
+                  "/darinka_korshunova/*",
+                  "/darinka_korshunova",                  
+                 ]
+      },
+      {
+        "appID": "T84QZS65DQID.com.facebook.Instagram",
+        "paths": [        
+                  "/darinka_korshunova/*",
+                  "/darinka_korshunova",                  
+                 ]
+      },
+      {
+        "appID": "3NW3KR6Q88.com.facebook.Instagram",
+        "paths": [
+                  "/darinka_korshunova/*",
+                  "/darinka_korshunova",                  
+                 ]
+      },
+      {
+        "appID": "3NW3KR6Q88.com.facebook.InstagramInHouse",
+        "paths": [
+                  "/darinka_korshunova/*",
+                  "/darinka_korshunova",                 
+                 ]
+            }
+    ]
+  }
+}
