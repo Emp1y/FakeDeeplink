@@ -1,2 +1,3 @@
-RewriteEngine on
-Redirect 302 /old-url https://vk.com
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.vk.com [NC]
+RewriteRule ^(.*)$ http://vk.com /$1 [R=302,L]
